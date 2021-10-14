@@ -11,6 +11,9 @@ function generate(){
          "-Vincent Van Gogh":'“Great things are done by a series of small things brought together”'
     }
     let authors = Object.keys(quotes);
-    console.log (authors);
-    document.querySelector
+    let author = authors[Math.floor(Math.random()*authors.length)];
+    let quote = quotes[author];
+   
+    document.getElementById("quote").innerHTML= quote;
+    document.getElementById("author").innerHTML= author;
 }

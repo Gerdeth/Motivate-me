@@ -8,7 +8,7 @@ body{
     display:Flex;
 
 }
-.quotes{
+ .quotes{
     border: 10px solid pink;
     width: 900px;
     height:450px;
@@ -20,6 +20,7 @@ body{
     padding: 0 50px;
     color:darkgrey;
     background-color:white;
+    text-align: center;
 }
 
 .quotes p, .quotes h3{
